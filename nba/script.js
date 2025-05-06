@@ -9,7 +9,7 @@ const container = document.getElementById('games');
 const dateInput = document.getElementById('datePicker');
 
 // Initialisiere mit heutigem Datum
-const today = new Date().toISOString().split('T')[0];
+const today = new Date().toISOString().split('T')[0]; 
 dateInput.value = today;
 
 async function fetchGames(date) {
